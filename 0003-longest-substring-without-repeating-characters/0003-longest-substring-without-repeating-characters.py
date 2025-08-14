@@ -8,7 +8,7 @@ class Solution:
 
             loop_longest = i
             while n < s_l:
-                if s[n] not in loop_longest:  # check for ANY duplicate
+                if s[n] not in loop_longest:
                     loop_longest += s[n]
                 else:
                     break
